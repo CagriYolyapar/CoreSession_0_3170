@@ -4,7 +4,7 @@ namespace CoreSession_0.ExtensionMethods
 {
     public static class SessionExtension
     {
-        //Bir metodun Extension method olabilmesi icin ilk parametresini cok özel alması gerekir...Bu ilk parametre verilirken this keyword'u ile baslanmalıdır...Ve 
+        //Bir metodun Extension method olabilmesi icin ilk parametresini cok özel alması gerekir...Bu ilk parametre verilirken this keyword'u ile baslanmalıdır...Ve entegre edilmek istedigi tip secilmelidir ki o tip icerisinde o metot yer alsın...Sonra diger parametreler normal bir şekilde verilir...
 
 
         public static void SetObject(this ISession session, string key, object value)
